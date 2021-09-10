@@ -1,0 +1,45 @@
+.comentario{
+    margin-top: 30px;
+    padding: 30px;
+   
+
+  
+
+}
+#texto{
+    text-align: left;
+}
+fieldset{
+    /* width: 500px; */
+    font-family: 'Arial', Courier, monospace;
+  
+}
+.barracomen{
+    font-size: 20px;
+  
+}
+input{
+    border-color: rgb(37, 101, 186);
+  
+    
+  
+}
+textarea {
+    border-color: rgb(37, 101, 186);
+    border-width: 3px;
+}
+.comentariofeitos{
+   border-radius: 10px;
+   margin-left: 10px;
+   
+}
+
+.mensagens{
+    margin-left: 20px;
+    margin-top: 7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.user{
+    font-weight: bold;
+    text-transform: capitalize;
+}

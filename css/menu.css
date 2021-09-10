@@ -1,0 +1,52 @@
+
+
+#check{
+    display: none;
+    margin-top: 200px;
+}
+#icone{
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+.barra{
+    background-color: #333;
+    height: 500px;
+    width: 300px;
+    position: fixed;
+    transition: all .2s linear;
+    left: -300px;
+}
+.nav{
+    width: 100px;
+    position: absolute;
+    top: 60px;
+
+}
+nav a{
+    text-decoration: none;
+
+}
+.link{
+    background-color: #494950;
+    padding: 20px;
+    font-family: arial;
+    font-size: 17px;
+    transition:  all .2s linear;
+    border-bottom: 2px solid #222;
+    /* opacity: 0; */
+    margin-top: 20px;
+}
+.link:hover{
+    background-color: #050542;
+
+}
+#check:checked ~ .barra{
+    transform: translateX(300px);
+}
+#check:checked ~ .barra nav a .link{
+   opacity: 1;
+   margin-top: 0;
+   transition-delay: .2s;
+}
